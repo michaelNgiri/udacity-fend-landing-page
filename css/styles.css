@@ -255,6 +255,3 @@ section.active-section .landing-container::after {
   font-size: xx-large;
   padding: 0 0.1em;
 }
-a:active {
-    color: red!important;
-}
