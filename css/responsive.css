@@ -31,7 +31,7 @@
 @media only screen and (max-width: 425px) {
 	/*Small smartphones [325px -> 425px]*/
 	 nav{
-        padding: 0 0 0 12px!important;
+        padding: 0 0 0 4px!important;
     }
 	/*Big smartphones [426px -> 600px]*/
 	nav #navbar-list{
@@ -42,6 +42,6 @@
 		margin: 4px;
 	}
     nav #navbar-list li a{
-        font-size: medium;
+        font-size: small;
 	}
 }

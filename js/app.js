@@ -1,4 +1,5 @@
-(function(global) {
+// This is a global function executed once the page is loaded 
+(function (global) {
   const pageSections = Array.from(
     document.querySelectorAll("section[data-nav]")
   );
