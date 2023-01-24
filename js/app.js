@@ -46,6 +46,7 @@
     }
   };
 
+  // this listens for and handles click events
   const handleClick = e => {
     e.preventDefault();
     clickActive = true;
@@ -69,6 +70,7 @@
   };
 
 
+  // dynamically create menu items
   const buildNavigationMenu = () => {
     const navItemsFragment = document.createDocumentFragment();
 
