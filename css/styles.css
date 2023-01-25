@@ -224,7 +224,6 @@ section:nth-of-type(3n + 1) .landing-container::after {
 /* Section Active Styles */
 /* Note: active-section class is applied through javascript. You should update the class here and in the index.html to what you set in your javascript file.  */
 section.active-section {
-  background: rgb(0, 0, 0);
   background: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.5) 0%,
@@ -252,7 +251,8 @@ section.active-section .landing-container::after {
   }
 }
 .active{
-  color: rebeccapurple;
+  color: #fff;
+  background-color: #333 !important;
   font-size: xx-large;
   padding: 0 0.1em;
 }
